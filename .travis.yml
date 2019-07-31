@@ -3,10 +3,10 @@ language: node_js
 node_js: 
 - v10.16.0
 
-# deploy:
-#   provider: heroku
-#   app: jiaying-test-env
-#   api_key: 
-#     secure: $HEROKU_API_KEY
-#   on:
-#     branch: master
+deploy:
+  provider: heroku
+  app: jiaying-test-env
+  api_key: 
+    secure: $HEROKU_API_KEY
+  on:
+    branch: master
